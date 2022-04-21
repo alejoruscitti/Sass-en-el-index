@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+body {
+  background-image: linear-gradient(to left, #F9DC88, #D1BD8F); }
+  body header {
+    background-color: #D1BD8F;
+    position: sticky;
+    top: 0; }
+    body header nav .menu {
+      color: black; }
+      body header nav .menu li {
+        font-size: 40px;
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 10px;
+        padding: 10px; }
+        body header nav .menu li a {
+          color: black;
+          font-family: Georgia, 'Times New Roman', Times, serif; }
+          body header nav .menu li a:hover {
+            background-color: #B8994E;
+            transform: scale(1.2); }
+    body header h1 {
+      text-align: center;
+      margin: 80px;
+      padding: 80px; }
+  body main .container {
+    display: grid;
+    grid-template-columns: 38% 23%;
+    grid-template-rows: 45% 40% 40%;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: "Velas1 Velas2" "aca aca2" "parrafo parrafo"; }
+    body main .container .Velas1 {
+      grid-area: Velas1; }
+      body main .container .Velas1 div .aca {
+        grid-area: aca;
+        text-align: center;
+        margin: 10px; }
+        body main .container .Velas1 div .aca .Velas2 {
+          grid-area: Velas2; }
+          body main .container .Velas1 div .aca .Velas2 div .aca2 {
+            grid-area: aca2;
+            text-align: center; }
+
+/*header y todo lo que tiene el menu*/
+/*Titulo*/
+/*grid para las estructuras de la pagina*/
+/*estilos de parrafo y img*/
+div .parrafo {
+  text-align: center;
+  text-transform: uppercase;
+  grid-area: parrafo; }
+
+img {
+  width: 400px;
+  height: 400px; }
