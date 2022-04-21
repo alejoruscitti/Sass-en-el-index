@@ -37,8 +37,8 @@ body{
             padding: 80px;
         }
     }
-    main{
-        .container{  display: grid;
+     main{
+        .container{ display: grid;
             grid-template-columns: 38% 23%;
             grid-template-rows: 45% 40% 40%;
             grid-auto-flow: row;
@@ -69,14 +69,10 @@ body{
                 }
             }
         }
+        
     }
     
 }
-
-/*header y todo lo que tiene el menu*/
-/*Titulo*/
-
-/*grid para las estructuras de la pagina*/
 
 /*estilos de parrafo y img*/
 div{
